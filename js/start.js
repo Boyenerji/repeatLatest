@@ -2,8 +2,8 @@
 
 // const WordsArr = require('arrayFile');
 
-import { WordsArr } from './words.js';
-import { arrWords } from './posts.js';
+// import { WordsArr } from './words.js';
+// import { arrWords } from './posts.js';
 
 let 
     randText = randomInteger(1, 2),
