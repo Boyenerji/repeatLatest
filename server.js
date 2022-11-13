@@ -3,23 +3,23 @@
 // const ejs = require('ejs');
 
 
-import express  from 'express';
-import path  from 'path';
+// import express  from 'express';
+// import path  from 'path';
 
-const app = express();
+// const app = express();
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
 
-// app.set('view engine', 'ejs');
+// // app.set('view engine', 'ejs');
 
-const PORT = 3000;
+// const PORT = 3000;
 
-const createPath = (page) => path.resolve(__dirname, 'public', `${page}.html`);
+// const createPath = (page) => path.resolve(__dirname, 'public', `${page}.html`);
 
-app.listen(PORT, (error) => {
-  error ? console.log(error) : console.log(`listening port ${PORT}`);
-});
+// app.listen(PORT, (error) => {
+//   error ? console.log(error) : console.log(`listening port ${PORT}`);
+// });
 
-app.get('/', (req, res) => {
-  res.sendFile(createPath('index'));
-});
+// app.get('/', (req, res) => {
+//   res.sendFile(createPath('index'));
+// });
